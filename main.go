@@ -14,5 +14,7 @@ func hashPassword(plain string) (string, error) {
 
 func main() {
 	pass, _ := hashPassword("224217007Kk@")
+	pass1, _ := hashPassword("224217007Kk@")
 	fmt.Println(pass)
+	fmt.Println(pass1)
 }
